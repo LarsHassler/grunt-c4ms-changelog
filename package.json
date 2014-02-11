@@ -1,0 +1,41 @@
+{
+  "name": "grunt-c4ms-changelog",
+  "description": "Grunt task to create a change log out of git commit messages. Inspired by the change log of the AngularJS Team",
+  "version": "0.1.0",
+  "homepage": "https://github.com/LarsHassler/grunt-c4ms-changelog",
+  "author": {
+    "name": "Lars Haßler",
+    "email": "lars.hassler@explosive-marketing.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LarsHassler/grunt-c4ms-changelog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LarsHassler/grunt-c4ms-changelog/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/LarsHassler/grunt-c4ms-changelog/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.21"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
